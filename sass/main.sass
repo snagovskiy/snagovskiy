@@ -1,0 +1,253 @@
+@import "vars"
+
+html
+	font-family: $ft-tx
+  font-size: 16px
+	height: 100%
+	body
+		font-family: $ft-tx
+		height: 100%
+		color: $ft-col		
+		h1, h2, h3, h4, h5, h6
+			font-family: $ft-cp
+
+.left
+  float: left
+.right
+  float: right
+	
+
+/* Links
+a
+  color: $acsent
+  &:focus, &:hover, &:active
+    color: $hover
+    text-decoration: none
+    outline: none
+
+/* Custom default button
+
+.btn-default
+  color: #fff
+  text-shadow: none
+  background-color: $acsent
+  border: 1px solid $acsent
+  &:hover, &:focus
+    color: #fff
+    text-shadow: none
+    background-color: $hover
+    border: 1px solid $hover
+
+.site-wrapper
+  display: table
+  width: 100%
+  height: 100%	
+  // For at least Firefox
+  min-height: 100%
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5)
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5)
+
+.site-wrapper-home
+	// background: url(../img/bg.jpg)
+	background-repeat: no-repaet
+	background-size: cover
+	background-position-y: 100%
+	background-position-x: 50%
+
+.site-wrapper-inner
+  display: table-cell
+  vertical-align: top
+
+.cover-container
+  margin-right: auto
+  margin-left: auto
+  color: #fff
+  text-align: center
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5)
+
+.inner
+  padding: 30px 0
+
+/*
+ * Header
+
+.masthead-brand
+  display: block
+  margin-top: 10px
+  margin-bottom: 10px
+#logo
+  fill: #fff
+  fill-opacity: 1
+  &:hover
+    fill: $acsent
+.masthead-nav
+  padding: 0
+
+.masthead-nav >
+  li
+    display: inline-block
+    position: relative
+    + li
+      margin-left: 20px
+    > a
+      padding-right: 0
+      padding-left: 0
+      font-size: 1.4rem
+      font-weight: bold
+      color: #fff
+      color: rgba(255, 255, 255, 0.75)
+      border-bottom: 2px solid transparent
+      &:hover, &:focus
+        background-color: transparent
+        border-bottom-color: $acsent
+    &:hover > .submenu
+      visibility: visible
+  .active > a
+    color: #fff
+    border-bottom-color: $acsent
+    &:hover, &:focus
+      color: #fff
+      border-bottom-color: $acsent
+.submenu
+  visibility: hidden
+  position: absolute
+  z-index: 100
+  top: 30px
+  left: -8%
+  padding: 5px 10px
+  background: rgba(255, 255, 255, 0.75)
+  border-radius: 3px
+  transition: all .3s ease .15s
+  > li
+    list-style-type: none
+    > a
+      color: rgba(0, 0, 0, 0.75)
+      &:hover, &:focus
+        color: $acsent
+  &:before
+    content: ""
+    position: absolute
+    top: -8px
+    right: 42%
+    height: 0
+    width: 0
+    border-left: 8px solid transparent
+    border-right: 8px solid transparent
+    border-bottom: 8px solid rgba(255, 255, 255, 0.75)
+
+.mastfoot
+  p 
+    font-size: 2rem    
+    a
+      color: #fff
+      &+a
+        margin-left: 10px
+      &:hover
+        color: $acsent
+.float-shadow
+  display: inline-block
+  position: relative
+  -webkit-transition-duration: 0.3s
+  transition-duration: 0.3s
+  -webkit-transition-property: transform
+  transition-property: transform
+  -webkit-transform: translateZ(0)
+  transform: translateZ(0)
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0)
+  &:before
+    pointer-events: none
+    position: absolute
+    z-index: -1
+    content: ''
+    top: 100%
+    left: 5%
+    height: 10px
+    width: 90%
+    opacity: 0
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%)
+    -webkit-transition-duration: 0.3s
+    transition-duration: 0.3s
+    -webkit-transition-property: transform, opacity
+    transition-property: transform, opacity
+  &:hover, &:focus, &:active
+    -webkit-transform: translateY(-5px)
+    transform: translateY(-5px)
+  &:hover:before, &:focus:before, &:active:before
+    opacity: 1
+    -webkit-transform: translateY(5px)
+    transform: translateY(5px)
+
+
+.df-header
+  background: #313131
+  height: auto
+  color: #333333
+  .panel
+    margin: 3px 0
+    .logo
+      margin-top: 7px
+    .submenu
+      background: rgba(0, 0, 0, 0.75)
+      li 
+        a
+          color: rgba(255, 255, 255, 0.75)
+          &:hover, &:focus
+            color: $acsent
+      &:before
+        border-bottom: 8px solid rgba(0, 0, 0, 0.75)
+.album-t
+  text-align: center
+.gallery_product
+  margin-bottom: 30px
+
+.fotter-mn
+  .social
+    text-align: right
+    > a
+      color: $ft-col
+      &+a
+        margin-left: 5px
+      &:hover
+        color: $acsent
+
+.top
+	position: fixed
+	bottom: 25px
+	background-color: #E0E0E0
+	border-radius: 10em
+	color: #666
+	font-size: 26px
+	width: 50px
+	height: 50px
+	line-height: 50px
+	text-align: center
+	cursor: pointer
+	transition: all .25s ease
+	right: -100px
+	z-index: 12
+	opacity: .5
+	&.active
+		right: 30px
+	i
+		line-height: 0
+	&:hover
+		color: #fff
+		background-color: $acsent
+		opacity: 1
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.top
+		bottom: 20px
+		&.active
+			right: 20px
+
+    
+      
+
+
+
+
+
+
+@import "media"

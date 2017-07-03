@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+{% include head.html %}
+<body>
+  {% include header.html %}
+  <div class="container">
+    <div class="row">
+      
+      {% for gallery in site.data.galleries %}
+        {% if gallery.id == page.galleryid %}
+          <h1 class="album-t">{{ page.title }}</h1>
+          {% for image in gallery.images %}
+            <div class="zoom-gallery gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
+              <a href="{{ gallery.imagefolder }}/{{ image.name }}">
+                <img class="img-responsive" src="{{ gallery.imagefolder }}/{{ image.thumb }}">
+              </a>
+            </div>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+
+    </div>
+  </div>
+
+  <footer class="fotter-mn">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="copy">&copy; {{ site.time | date: "%Y" }}, Александр Снаговский.</p>
+        </div>
+        <div class="col-md-6">
+          <p class="social">{% include social.html %}</p>
+        </div>
+      </div>
+    </div>
+    <div class="top" title="Наверх"><i class="fa fa-angle-double-up"></i></div>
+  </footer>
+
+  {% include js.html %}  
+</body>
+
+</html>

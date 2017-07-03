@@ -1,0 +1,76 @@
+- id: portraits
+  description: This is the first gallery
+  imagefolder: /assets/gallery/portraits
+  images:
+  - name: img-1.jpg
+    thumb: thumb-1.jpg
+  - name: img-2.jpg
+    thumb: thumb-2.jpg
+  - name: img-3.jpg
+    thumb: thumb-3.jpg
+  - name: img-4.jpg
+    thumb: thumb-4.jpg
+  - name: img-5.jpg
+    thumb: thumb-5.jpg
+  - name: img-6.jpg
+    thumb: thumb-6.jpg
+  - name: img-7.jpg
+    thumb: thumb-7.jpg
+  - name: img-8.jpg
+    thumb: thumb-8.jpg
+  - name: img-9.jpg
+    thumb: thumb-9.jpg
+  - name: img-10.jpg
+    thumb: thumb-10.jpg
+  - name: img-11.jpg
+    thumb: thumb-11.jpg
+  - name: img-12.jpg
+    thumb: thumb-12.jpg
+  - name: img-13.jpg
+    thumb: thumb-13.jpg
+  - name: img-14.jpg
+    thumb: thumb-14.jpg
+
+- id: nature
+  description: This is the first gallery
+  imagefolder: /assets/gallery/nature
+  images:
+  - name: img-1.jpg
+    thumb: thumb-1.jpg
+  - name: img-2.jpg
+    thumb: thumb-2.jpg
+  - name: img-3.jpg
+    thumb: thumb-3.jpg
+  - name: img-4.jpg
+    thumb: thumb-4.jpg
+  - name: img-5.jpg
+    thumb: thumb-5.jpg
+  - name: img-6.jpg
+    thumb: thumb-6.jpg
+  - name: img-7.jpg
+    thumb: thumb-7.jpg
+  - name: img-8.jpg
+    thumb: thumb-8.jpg
+  - name: img-9.jpg
+    thumb: thumb-9.jpg
+  - name: img-10.jpg
+    thumb: thumb-10.jpg
+  - name: img-11.jpg
+    thumb: thumb-11.jpg
+  - name: img-12.jpg
+    thumb: thumb-12.jpg
+
+- id: animals
+  description: This is the first gallery
+  imagefolder: /assets/gallery/animals
+  images:
+  - name: img-1.jpg
+    thumb: thumb-1.jpg
+  - name: img-2.jpg
+    thumb: thumb-2.jpg
+  - name: img-3.jpg
+    thumb: thumb-3.jpg
+  - name: img-4.jpg
+    thumb: thumb-4.jpg
+  - name: img-5.jpg
+    thumb: thumb-5.jpg

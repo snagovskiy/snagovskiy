@@ -1,0 +1,18 @@
+<nav>
+  <ul class="nav masthead-nav">
+    {% for item in site.menu %}
+    <li class="{% if page.url == {{item.url}} %}active{% endif %}">
+      <a href="{{item.url}}">{{item.name}}</a>
+      {% if item.submenu %}
+      <ul class="submenu">
+        {% for subitem in item.submenu %}
+        <li>
+          <a href="{{subitem.url}}">{{subitem.name}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
