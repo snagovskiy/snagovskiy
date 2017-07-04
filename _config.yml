@@ -19,6 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   «Фотография — это выражение впечатления. Если прекрасное не жило бы в нас, как бы мы могли узнать его?»
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: UA-27551461-4
 
 menu:
   - url: /
@@ -44,7 +45,6 @@ telegram: snagoff
 # Build settings
 markdown: kramdown
 timezone: Europe/Kiev
-google_analytics: UA-27551461-4
 gems:
   - jekyll-feed
 exclude:
