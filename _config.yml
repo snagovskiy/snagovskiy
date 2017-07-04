@@ -44,6 +44,7 @@ telegram: snagoff
 # Build settings
 markdown: kramdown
 timezone: Europe/Kiev
+google_analytics: UA-27551461-4
 gems:
   - jekyll-feed
 exclude:
