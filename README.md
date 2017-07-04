@@ -1,1 +1,0 @@
-# snagovskiy.github.io
