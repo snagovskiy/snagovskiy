@@ -7,6 +7,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-27551461-4
 lang: ru
 
+sass:
+  style: compressed
+
 menu:
   - url: /
     name: Главная

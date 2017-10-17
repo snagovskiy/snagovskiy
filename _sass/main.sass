@@ -1,15 +1,15 @@
-@import "vars"
+@import "libs/normalize/normalize", "vars"
 
 html
-	font-family: $ft-tx
+  font-family: $ft-tx
   font-size: 16px
-	height: 100%
-	body
-		font-family: $ft-tx
-		height: 100%
-		color: $ft-col		
-		h1, h2, h3, h4, h5, h6
-			font-family: $ft-cp
+  height: 100%
+  body
+    font-family: $ft-tx
+    height: 100%
+    color: $ft-col
+    h1, h2, h3, h4, h5, h6
+      font-family: $ft-cp
 
 .left
   float: left
@@ -46,18 +46,18 @@ a
 .site-wrapper
   display: table
   width: 100%
-  height: 100%	
+  height: 100%
   // For at least Firefox
   min-height: 100%
   -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5)
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5)
 
 .site-wrapper-home
-	// background: url(../img/bg.jpg)
-	background-repeat: no-repaet
-	background-size: cover
-	background-position-y: 100%
-	background-position-x: 50%
+  // background: url(../img/bg.jpg)
+  background-repeat: no-repaet
+  background-size: cover
+  background-position-y: 100%
+  background-position-x: 50%
 
 .site-wrapper-inner
   display: table-cell
@@ -96,7 +96,7 @@ a
     > a
       padding-right: 0
       padding-left: 0
-      font-size: 1.4rem
+      font-size: 0.88rem
       font-weight: bold
       color: #fff
       color: rgba(255, 255, 255, 0.75)
@@ -140,8 +140,8 @@ a
     border-bottom: 8px solid rgba(255, 255, 255, 0.75)
 
 .mastfoot
-  p 
-    font-size: 2rem    
+  p
+    font-size: 1.4rem
     a
       color: #fff
       &+a
@@ -193,7 +193,7 @@ a
       margin-top: 7px
     .submenu
       background: rgba(0, 0, 0, 0.75)
-      li 
+      li
         a
           color: rgba(255, 255, 255, 0.75)
           &:hover, &:focus
@@ -207,7 +207,7 @@ a
 .gallery_product
   margin-bottom: 30px
 
-.fotter-mn  
+.fotter-mn
   margin: -50px auto 0
   height: 50px
   position: relative
@@ -227,29 +227,29 @@ a
         color: $acsent
 
 .top
-	position: fixed
-	bottom: 25px
-	background-color: #E0E0E0
-	border-radius: 10em
-	color: #666
-	font-size: 26px
-	width: 50px
-	height: 50px
-	line-height: 50px
-	text-align: center
-	cursor: pointer
-	transition: all .25s ease
-	right: -100px
-	z-index: 12
-	opacity: .5
-	&.active
-		right: 30px
-	i
-		line-height: 0
-	&:hover
-		color: #fff
-		background-color: $acsent
-		opacity: 1
+  position: fixed
+  bottom: 25px
+  background-color: #E0E0E0
+  border-radius: 10em
+  color: #666
+  font-size: 26px
+  width: 50px
+  height: 50px
+  line-height: 50px
+  text-align: center
+  cursor: pointer
+  transition: all .25s ease
+  right: -100px
+  z-index: 12
+  opacity: .5
+  &.active
+    right: 30px
+  i
+    line-height: 0
+  &:hover
+    color: #fff
+    background-color: $acsent
+    opacity: 1
 
 
 
