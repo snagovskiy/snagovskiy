@@ -6,14 +6,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-27551461-4
 lang: ru
+timezone: Europe/Kiev
 
-sass:
-  style: compressed
-
-autoprefixer:
-  browsers:
-  - last 3 versions
-
+#Main menu
 menu:
   - url: /
     name: Главная
@@ -29,7 +24,7 @@ menu:
   - url: https://snagovskiy.tumblr.com
     name: Блог
 
-
+#Social links
 facebook: asnagovskiy
 googleplus: +АлександрСнаговский
 instagram: snagoff
@@ -37,7 +32,6 @@ telegram: snagoff
 
 # Build settings
 markdown: kramdown
-timezone: Europe/Kiev
 plugins:
   - jekyll-feed
   - jekyll-autoprefixer
@@ -46,3 +40,5 @@ exclude:
   - Gemfile.lock
   - sass
   - prepros-6.config
+sass:
+  style: compressed
