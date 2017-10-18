@@ -1,4 +1,4 @@
-@import "libs/normalize/normalize", "vars"
+@import "fonts","libs/normalize/normalize", "vars"
 
 html
   font-family: $ft-tx
@@ -24,7 +24,7 @@ html
 
 // Links
 a
-  color: $acsent
+  color: $accent
   &:focus, &:hover, &:active
     color: $hover
     text-decoration: none
@@ -35,8 +35,8 @@ a
 .btn-default
   color: #fff
   text-shadow: none
-  background-color: $acsent
-  border: 1px solid $acsent
+  background-color: $accent
+  border: 1px solid $accent
   &:hover, &:focus
     color: #fff
     text-shadow: none
@@ -82,8 +82,9 @@ a
 #logo
   fill: #fff
   fill-opacity: 1
+  transition: all 0.3s ease-in-out
   &:hover
-    fill: $acsent
+    fill: $accent
 .masthead-nav
   padding: 0
 
@@ -101,17 +102,18 @@ a
       color: #fff
       color: rgba(255, 255, 255, 0.75)
       border-bottom: 2px solid transparent
+      transition: all 0.3s ease-in-out
       &:hover, &:focus
         background-color: transparent
-        border-bottom-color: $acsent
+        border-bottom-color: $accent
     &:hover > .submenu
       visibility: visible
   .active > a
     color: #fff
-    border-bottom-color: $acsent
+    border-bottom-color: $accent
     &:hover, &:focus
       color: #fff
-      border-bottom-color: $acsent
+      border-bottom-color: $accent
 .submenu
   visibility: hidden
   position: absolute
@@ -127,7 +129,7 @@ a
     > a
       color: rgba(0, 0, 0, 0.75)
       &:hover, &:focus
-        color: $acsent
+        color: $accent
   &:before
     content: ""
     position: absolute
@@ -147,7 +149,7 @@ a
       &+a
         margin-left: 10px
       &:hover
-        color: $acsent
+        color: $accent
 .float-shadow
   display: inline-block
   position: relative
@@ -197,7 +199,7 @@ a
         a
           color: rgba(255, 255, 255, 0.75)
           &:hover, &:focus
-            color: $acsent
+            color: $accent
       &:before
         border-bottom: 8px solid rgba(0, 0, 0, 0.75)
 .album-t
@@ -206,6 +208,12 @@ a
   padding: 0 0 50px
 .gallery_product
   margin-bottom: 30px
+  .img-wrap
+    overflow: hidden
+    .th-transform
+      transition: all 0.3s ease-in-out
+      &:hover
+        transform: scale(1.05)
 
 .fotter-mn
   margin: -50px auto 0
@@ -224,7 +232,7 @@ a
       &+a
         margin-left: 5px
       &:hover
-        color: $acsent
+        color: $accent
 
 .top
   position: fixed
@@ -248,7 +256,7 @@ a
     line-height: 0
   &:hover
     color: #fff
-    background-color: $acsent
+    background-color: $accent
     opacity: 1
 
 

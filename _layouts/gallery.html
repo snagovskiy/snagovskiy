@@ -12,16 +12,18 @@
           <h1 class="album-t">{{ page.title }}</h1>
           {% for image in gallery.images %}
           <div class="zoom-gallery gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-            <a href="{{ gallery.imagefolder }}/{{ image.name }}">
-                <img class="img-responsive" src="{{ gallery.imagefolder }}/{{ image.thumb }}">
-              </a>
+            <div class="img-wrap">
+              <a href="{{ gallery.imagefolder }}/{{ image.name }}">
+                  <img class="img-responsive th-transform" src="{{ gallery.imagefolder }}/{{ image.thumb }}">
+                </a>
+            </div>
           </div>
           {% endfor %} {% endif %} {% endfor %}
-        </div>        
+        </div>
       </div>
-    </div>        
+    </div>
   </div>
-  <div class="top" title="Наверх"><i class="fa fa-angle-double-up"></i></div>  
+  <div class="top" title="Наверх"><i class="fa fa-angle-double-up"></i></div>
   <footer class="fotter-mn">
     <div class="line"></div>
     <div class="container">
