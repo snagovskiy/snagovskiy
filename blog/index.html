@@ -1,0 +1,39 @@
+---
+layout: default
+title: Блог
+menu: Блог
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title wow bounceInLeft">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date: "%m.%d.%Y" }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Туда</a>
+  {% else %}
+    <span class="pagination-item older">Туда</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">Сюда</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Сюда</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Сюда</span>
+  {% endif %}
+</div>
+<div class="top" title="Наверх"><i class="fas fa-angle-double-up"></i></div>

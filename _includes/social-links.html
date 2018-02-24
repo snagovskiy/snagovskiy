@@ -1,0 +1,5 @@
+<div class="social-links">
+    {% for link in site.social-links %}
+      <a class="pop" href="{{link.url}}" target="_blank"><i class="fab {{link.icon}}"></i></a>
+      {% endfor %}
+</div>

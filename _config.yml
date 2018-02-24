@@ -1,0 +1,53 @@
+
+# Setup
+title:               Александр Снаговский
+tagline:             ''
+description:         '«Фотография — это выражение впечатления. Если прекрасное не жило бы в нас, как бы мы могли узнать его?»'
+url:                 ''
+baseurl:             ''
+permalink:           pretty
+lang:                ru
+timezone:            Europe/Kiev
+google_analytics:    UA-27551461-4
+disqus.shortname:    snagovskiy
+paginate:            5
+paginate_path:       "/blog/page:num/"
+
+# About/contact
+author:
+  name:              Alexandr Snagovskiy
+  url:               https://snagovskiy.pp.ua
+  email:             asnagovskiy@ukr.net
+
+# Social links
+social-links:
+  - name: Facebook
+    url: https://www.facebook.com/asnagovskiy
+    icon: fa-facebook-square
+  - name: Google Plus
+    url: https://plus.google.com/+АлександрСнаговский
+    icon: fa-google-plus-square
+  - name: Instagram
+    url: https://instagram.com/snagoff
+    icon: fa-instagram
+  - name: WhatsApp
+    url: https://api.whatsapp.com/send?phone=380501770541
+    icon: fa-whatsapp
+
+#the color of the browser's cap
+color: '#d28445'
+
+#Sidebar menu
+menu:
+  - url: /
+    name: Главная
+    menu: home
+  - url: /blog/
+    name: Блог
+    menu: blog
+
+
+#Plugins
+plugins:
+  - jekyll-paginate
+
