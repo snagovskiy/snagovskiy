@@ -1,0 +1,6 @@
+---
+hide_body: false
+fields:
+- type: textarea
+  name: title
+  label: title
