@@ -50,4 +50,4 @@ menu:
 #Plugins
 plugins:
   - jekyll-paginate
-
+  - jemoji
