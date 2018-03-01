@@ -24,11 +24,14 @@ layout: default
   </ul>
 </div>
 
-<div id="commentscounter"></div>
+<div id="comments"></div>
 
 <script>
-gapi.commentcount.render('commentscounter', {
-    href: window.location
+gapi.comments.render('comments', {
+    href: window.location,
+    width: '624',
+    first_party_property: 'BLOGGER',
+    view_type: 'FILTERED_POSTMOD'
 });
 </script>
 
