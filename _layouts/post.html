@@ -23,7 +23,13 @@ layout: default
     {% endfor %}
   </ul>
 </div>
-<div id="gplus-pingback"></div>
-<script type='text/javascript'>//<![CDATA[ (function() { var _gp = document.createElement('script'); _gp.type = 'text/javascript'; _gp.async = true; _gp.src = 'http://gplus.kulikovd.ru/pingback?profile=107978573013111120344&url=' + window.location.href; var _s = document.getElementsByTagName('script')[0]; _s.parentNode.insertBefore(_gp, _s.nextSibling); })(); //]]></script>
+
+<div id="commentscounter"></div>
+
+<script>
+gapi.commentcount.render('commentscounter', {
+    href: window.location
+});
+</script>
 
 <div class="top" title="Наверх"><i class="fas fa-angle-double-up"></i></div>
