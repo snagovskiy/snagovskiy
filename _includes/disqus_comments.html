@@ -1,14 +1,15 @@
 {% if page.comments != false and jekyll.environment == "production" %}
 
   <div id="disqus_thread"></div>
-  <script data-cfasync="false">
+  <script data-cfasync="false" type="text/javascript"
+>
     var disqus_config = function () {
       this.page.url = '{{ page.url | absolute_url }}';
       this.page.identifier = '{{ page.url | absolute_url }}';
     };
 
     (function() {
-      var d = document, s = d.createElement('script');
+      var d = document, s = d.createElement('script data-cfasync="false"');
 
       s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';    
       s.setAttribute('data-timestamp', +new Date());
