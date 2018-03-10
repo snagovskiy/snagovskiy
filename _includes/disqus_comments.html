@@ -4,8 +4,8 @@
   <script data-cfasync="false" type="text/javascript"
 >
     var disqus_config = function () {
-      this.page.url = '{{ page.url | absolute_url }}';
-      this.page.identifier = '{{ page.url | absolute_url }}';
+      this.page.url = '{{ site.baseurl }}{{ page.url | absolute_url }}';
+      this.page.identifier = '{{ site.baseurl }}{{ page.url | absolute_url }}';
     };
 
     (function() {
