@@ -23,9 +23,9 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+{% if site.disqus.shortname %}  
+{% include disqus_comments.html %} 
+{% endif %} 
 
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
 
 <div class="top" title="Наверх"><i class="fas fa-angle-double-up"></i></div>
