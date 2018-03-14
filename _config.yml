@@ -33,6 +33,9 @@ social-links:
   - name: WhatsApp
     url: https://api.whatsapp.com/send?phone=380501770541
     icon: fa-whatsapp
+  - name: Messenger
+    url: https://m.me/asnagovskiy
+    icon: fa-facebook-messenger
 
 #the color of the browser's cap
 color: '#d28445'
