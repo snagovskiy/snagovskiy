@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /public/
+Sitemap: https://snagovskiy.github.io/atom.xml
