@@ -4,5 +4,11 @@ pages:
 hide_body: false
 fields:
 - type: textarea
+  name: layout
+  label: 'layout: post'
+  config:
+    wysiwyg: false
+  default: post
+- type: textarea
   name: title
   label: title
