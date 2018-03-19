@@ -2,7 +2,7 @@
 pages:
 - _posts/2018-03-19-dolgaya-zima.md
 - _posts/2018-02-26-test.md
-hide_body: true
+hide_body: false
 fields:
 - type: textarea
   name: layout
