@@ -33,9 +33,9 @@ social-links:
   - name: Instagram
     url: https://instagram.com/snagoff
     icon: fa-instagram
-  - name: WhatsApp
-    url: https://api.whatsapp.com/send?phone=380501770541
-    icon: fa-whatsapp
+  - name: Telegram
+    url: https://t.me/snagoff
+    icon: fa-telegram
   - name: Messenger
     url: https://m.me/asnagovskiy
     icon: fa-facebook-messenger
