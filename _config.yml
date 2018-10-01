@@ -33,12 +33,12 @@ social-links:
   - name: Instagram
     url: https://instagram.com/snagoff
     icon: fa-instagram
-  - name: WhatsApp
-    url: https://goo.gl/q9Bsx5
-    icon: fa-whatsapp
-  - name: Messenger
-    url: https://m.me/asnagovskiy
-    icon: fa-facebook-messenger
+  - name: Telegram
+    url: https://t.me/snagoff
+    icon: fa-telegram
+  - name: Strava
+    url: https://www.strava.com/athletes/xanderx
+    icon: fa-strava
 
 #the color of the browser's cap
 color: '#2e8cb3'
