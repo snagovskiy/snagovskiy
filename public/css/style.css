@@ -22,7 +22,7 @@
 
 .lead {
   font-size: 16px;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .social-links {
@@ -86,13 +86,15 @@
 
 
 .nGY2Breadcrumb {
-  font-size: 14px;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;  
 }
 
 .nGEvent, .nGY2GThumbnailIconText {
   font-size: 10px;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+.nGEvent, .nGY2GThumbnailIconText, .nGY2Breadcrumb {  
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .top {
