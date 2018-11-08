@@ -8,7 +8,11 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+<<<<<<< HEAD
 gem "jekyll", "~> 3.8.0"
+=======
+gem "jekyll", "~> 3.0.0"
+>>>>>>> cfd65845e75f56bd350698a3d063f3467eb4e134
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"
