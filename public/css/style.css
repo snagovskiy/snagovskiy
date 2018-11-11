@@ -129,7 +129,7 @@
   opacity: 1
 }
 
-#reactions .reaction-items .reaction-item .reaction-item__text {
+#reactions .reaction-items .reaction-item .reaction-item__text, #reactions-promotion .reaction-items .reaction-item .reaction-item__text {
     display: none;
 }
 
