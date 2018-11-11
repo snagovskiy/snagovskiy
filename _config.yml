@@ -57,3 +57,4 @@ menu:
 plugins:
   - jekyll-paginate
   - jemoji
+  - jekyll-sitemap
