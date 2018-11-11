@@ -129,9 +129,6 @@
   opacity: 1
 }
 
-#reactions .reaction-items .reaction-item .reaction-item__text, #reactions-promotion .reaction-items .reaction-item .reaction-item__text {
-    display: none; !important
-}
 
 @media only screen and (max-width: 480px) {
   .top {
