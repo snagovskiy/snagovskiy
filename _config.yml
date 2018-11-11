@@ -58,3 +58,10 @@ plugins:
   - jekyll-paginate
   - jemoji
   - jekyll-sitemap
+  
+defaults:
+  -
+    scope:
+      path:            "assets/**/*"
+    values:
+      sitemap:         true
