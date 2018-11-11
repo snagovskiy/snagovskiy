@@ -129,6 +129,10 @@
   opacity: 1
 }
 
+.reaction-item__text {
+    display: none;
+}
+
 @media only screen and (max-width: 480px) {
   .top {
     bottom: 20px
