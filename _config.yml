@@ -62,6 +62,6 @@ plugins:
 defaults:
   -
     scope:
-      path:            "/assets/**/*"
+      path:            "assets/**/*.css"
     values:
       sitemap:         false
