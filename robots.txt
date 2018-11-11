@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /public/
 Sitemap: https://snagovskiy.github.io/atom.xml
+Sitemap: https://snagovskiy.pp.ua/sitemap.xml
