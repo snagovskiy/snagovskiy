@@ -6,6 +6,24 @@ search: exclude
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">  
 
+    <url>
+        <loc>https://snagovskiy.pp.ua/</loc>
+        <changefreq>hourly</changefreq>
+        <lastmod>2018-11-11</lastmod>
+    </url>
+
+    <url>
+        <loc>https://snagovskiy.pp.ua/blog/</loc>
+        <changefreq>hourly</changefreq>
+        <lastmod>2018-11-11</lastmod>
+    </url>
+
+    <url>
+        <loc>https://snagovskiy.pp.ua/portfolio/</loc>
+        <changefreq>hourly</changefreq>
+        <lastmod>2018-11-11</lastmod>
+    </url>
+
     {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{ site.baseurl }}{{post.url}}</loc>
@@ -13,6 +31,6 @@ search: exclude
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
-    {% endfor %}
+    {% endfor %}       
 
 </urlset>
