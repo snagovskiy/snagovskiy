@@ -26,7 +26,7 @@ $(window).scroll(function() {
 // top end
 
 // sidebar
-$(function(document) {
+$(function() {
   var toggle = document.querySelector('.sidebar-toggle');
   var sidebar = document.querySelector('#sidebar');
   var checkbox = document.querySelector('#sidebar-checkbox');
@@ -40,5 +40,5 @@ $(function(document) {
 
     checkbox.checked = false;
   }, false);
-})(document);
+});
 // sidebar end
