@@ -6,7 +6,7 @@ description:         '«Фотография — это выражение вп�
 keywords:            'Александр Снаговский Алчевск Луганск велосипед фото портфолио хобби'
 url:                 'snagovskiy.pp.ua'
 baseurl:             ''
-permalink:           pretty
+permalink:           /:categories/:title
 lang:                ru
 timezone:            Europe/Kiev
 google_analytics:    UA-27551461-4

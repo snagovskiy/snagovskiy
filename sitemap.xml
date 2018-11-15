@@ -1,12 +1,10 @@
+---
+layout: null
+search: exclude
+---
+
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>https://snagovskiy.pp.ua/</loc>
   <lastmod>2018-11-12T10:06:31+00:00</lastmod>
@@ -22,16 +20,13 @@
   <lastmod>2018-11-12T10:06:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://snagovskiy.pp.ua/blog/2018/11/10/v-lugansk-na-velosipede/</loc>
-  <lastmod>2018-11-12T10:06:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://snagovskiy.pp.ua/blog/2018/02/26/test/</loc>
-  <lastmod>2018-11-12T10:06:31+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+{% for post in site.posts %}
+    <url>
+        <loc>https://{{ site.url }}{{post.url}}</loc>
+        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
 
 
 </urlset>
