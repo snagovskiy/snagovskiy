@@ -49,10 +49,12 @@ menu:
   - url: /
     name: Главная
     menu: home
-  - url: /blog/
+  - url: /blog
     name: Блог
     menu: blog
-
+  - url: /portfolio
+    name: Портфолио
+    menu: portfolio
 
 #Plugins
 plugins:
