@@ -11,11 +11,6 @@ search: exclude
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://snagovskiy.pp.ua/blog/</loc>
-  <lastmod>2018-11-12T10:06:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://snagovskiy.pp.ua/portfolio/</loc>
   <lastmod>2018-11-12T10:06:31+00:00</lastmod>
   <priority>0.80</priority>
