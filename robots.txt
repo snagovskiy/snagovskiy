@@ -1,4 +1,4 @@
 User-agent: *
 
-Sitemap: https://snagovskiy.github.io/atom.xml
-Sitemap: https://snagovskiy.pp.ua/sitemap.xml
+Sitemap: http://snagovskiy.pp.ua/atom.xml
+Sitemap: http://snagovskiy.pp.ua/sitemap.xml
