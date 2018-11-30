@@ -6,18 +6,18 @@ search: exclude
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://snagovskiy.pp.ua/</loc>
+  <loc>{{ site.url }}</loc>
   <lastmod>2018-11-12T10:06:31+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://snagovskiy.pp.ua/portfolio/</loc>
+  <loc>{{ site.url }}/portfolio/</loc>
   <lastmod>2018-11-12T10:06:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 {% for post in site.posts %}
     <url>
-        <loc>https://{{ site.url }}{{post.url}}</loc>
+        <loc>{{ site.url }}{{post.url}}</loc>
         <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
         <priority>0.5</priority>
     </url>
