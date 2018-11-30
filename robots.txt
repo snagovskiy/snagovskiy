@@ -1,4 +1,4 @@
 User-agent: *
 
-Sitemap: http://snagovskiy.pp.ua/atom.xml
-Sitemap: http://snagovskiy.pp.ua/sitemap.xml
+Sitemap: https://snagovskiy.pp.ua/atom.xml
+Sitemap: https://snagovskiy.pp.ua/sitemap.xml
