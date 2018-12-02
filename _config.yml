@@ -1,63 +1,58 @@
-
-# Setup
-title:               Александр Снаговский
-tagline:             ''
-description:         '«Фотография — это выражение впечатления. Если прекрасное не жило бы в нас, как бы мы могли узнать его?»'
-keywords:            'Александр Снаговский Алчевск Луганск велосипед фото портфолио хобби'
-url:                 'https://snagovskiy.pp.ua'
-baseurl:             ''
-permalink:           /:categories/:title
-lang:                ru
-timezone:            Europe/Kiev
-google_analytics:    UA-27551461-4
-paginate:            5
-paginate_path:       "/blog/page:num/"
-
-# disqus
+---
+title: Александр Снаговский
+timezone: Europe/Kiev
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+tagline: ''
+description: "«Фотография — это выражение впечатления. Если прекрасное не жило бы
+  в нас, как бы мы могли узнать его?»"
+keywords: Александр Снаговский Алчевск Луганск велосипед фото портфолио хобби
+url: https://snagovskiy.pp.ua
+baseurl: ''
+permalink: "/:categories/:title"
+lang: ru
+google_analytics: UA-27551461-4
+paginate: 5
+paginate_path: "/blog/page:num/"
 disqus:
-  shortname:         snagovskiy
-
-# About/contact
+  shortname: snagovskiy
 author:
-  name:              Alexandr Snagovskiy
-  url:               snagovskiy.pp.ua
-  email:             asnagovskiy@ukr.net
-
-# Social links
+  name: Alexandr Snagovskiy
+  url: snagovskiy.pp.ua
+  email: asnagovskiy@ukr.net
 social-links:
-  - name: Facebook
-    url: https://www.facebook.com/asnagovskiy
-    icon: fa-facebook-square
-  - name: Google Plus
-    url: https://plus.google.com/+АлександрСнаговский
-    icon: fa-google-plus-square
-  - name: Instagram
-    url: https://instagram.com/snagoff
-    icon: fa-instagram
-  - name: Telegram
-    url: https://t.me/snagoff
-    icon: fa-telegram
-  - name: Strava
-    url: https://www.strava.com/athletes/xanderx
-    icon: fa-strava
-
-#the color of the browser's cap
-color: '#b7d0da'
-
-#Sidebar menu
+- name: Facebook
+  url: https://www.facebook.com/asnagovskiy
+  icon: fa-facebook-square
+- name: Google Plus
+  url: https://plus.google.com/+АлександрСнаговский
+  icon: fa-google-plus-square
+- name: Instagram
+  url: https://instagram.com/snagoff
+  icon: fa-instagram
+- name: Telegram
+  url: https://t.me/snagoff
+  icon: fa-telegram
+- name: Strava
+  url: https://www.strava.com/athletes/xanderx
+  icon: fa-strava
+color: "#b7d0da"
 menu:
-  - url: /
-    name: Главная
-    menu: home
-  - url: /blog
-    name: Блог
-    menu: blog
-  - url: /portfolio
-    name: Портфолио
-    menu: portfolio
-
-#Plugins
+- url: "/"
+  name: Главная
+  menu: home
+- url: "/blog"
+  name: Блог
+  menu: blog
+- url: "/portfolio"
+  name: Портфолио
+  menu: portfolio
 plugins:
-  - jekyll-paginate
-  - jemoji
-  - jekyll-sitemap
+- jekyll-paginate
+- jemoji
+- jekyll-sitemap

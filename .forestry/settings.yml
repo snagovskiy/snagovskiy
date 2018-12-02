@@ -1,4 +1,7 @@
 ---
+---
+
+---
 upload_path: "/uploads/:year:/:month:/:day:"
 frontmatter_file_url_template: "/uploads/:year:/:month:/:day:"
 body_file_url_template: "/uploads/:year:/:month:/:day:"
