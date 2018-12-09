@@ -12,13 +12,9 @@ search: exclude
 <url>
   <loc>{{ site.url }}/portfolio/</loc>
   <lastmod>2018-11-12</lastmod>
-</url>
-{% for post in site.posts %}
-    <url>
-        <loc>{{ site.url }}{{post.url}}</loc>
-        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
-    </url>
-    {% endfor %}
-
-
+</url>{% for post in site.posts %}
+<url>
+    <loc>{{ site.url }}{{post.url}}</loc>
+    <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+</url>{% endfor %}
 </urlset>
