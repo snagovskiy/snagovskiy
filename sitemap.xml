@@ -14,7 +14,7 @@ search: exclude
   <lastmod>2018-11-12</lastmod>
 </url>{% for post in site.posts %}
 <url>
-    <loc>{{ site.url }}{{post.url}}</loc>
-    <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+  <loc>{{ site.url }}{{post.url}}</loc>
+  <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
 </url>{% endfor %}
 </urlset>
