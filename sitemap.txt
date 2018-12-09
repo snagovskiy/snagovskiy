@@ -7,14 +7,12 @@ search: exclude
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>{{ site.url }}</loc>
-  <lastmod>2018-11-12T10:06:31+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2018-11-12</lastmod>
 </url>
 {% for post in site.posts %}
     <url>
         <loc>{{ site.url }}{{post.url}}</loc>
         <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
-        <priority>0.5</priority>
     </url>
     {% endfor %}
 
