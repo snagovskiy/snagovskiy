@@ -28,19 +28,19 @@ author:
 social-links:
 - name: Facebook
   url: https://www.facebook.com/asnagovskiy
-  icon: fa-facebook-square
-- name: Google Plus
-  url: https://plus.google.com/+АлександрСнаговский
-  icon: fa-google-plus-square
+  icon: fab fa-facebook-square
+- name: RSS
+  url: https://snagovskiy.pp.ua/atom.xml
+  icon: fas fa-rss-square
 - name: Instagram
   url: https://instagram.com/snagoff
-  icon: fa-instagram
+  icon: fab fa-instagram
 - name: Telegram
   url: https://t.me/snagoff
-  icon: fa-telegram
+  icon: fab fa-telegram
 - name: Strava
   url: https://www.strava.com/athletes/xanderx
-  icon: fa-strava
+  icon: fab fa-strava
 color: "#b7d0da"
 menu:
 - url: "/"
@@ -54,5 +54,5 @@ menu:
   menu: portfolio
 plugins:
 - jekyll-paginate
-- jemoji
+#- jemoji
 - jekyll-sitemap
