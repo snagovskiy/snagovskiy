@@ -54,5 +54,4 @@ menu:
   menu: portfolio
 plugins:
 - jekyll-paginate
-#- jemoji
 - jekyll-sitemap
