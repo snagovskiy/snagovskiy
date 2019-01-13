@@ -8,12 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-tagline: ''
+tagline: 
 description: "«Фотография — это выражение впечатления. Если прекрасное не жило бы
   в нас, как бы мы могли узнать его?»"
 keywords: Александр Снаговский Алчевск Луганск велосипед фото портфолио хобби
 url: https://snagovskiy.pp.ua
-baseurl: ''
+baseurl: 
 permalink: "/:categories/:title"
 lang: ru
 google_analytics: UA-27551461-4
@@ -27,7 +27,7 @@ author:
   email: asnagovskiy@ukr.net
 social-links:
 - name: Facebook
-  url: https://www.facebook.com/asnagovskiy
+  url: https://www.facebook.com/snagovskiy
   icon: fab fa-facebook-square
 - name: RSS
   url: https://snagovskiy.pp.ua/atom.xml
