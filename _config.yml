@@ -41,7 +41,7 @@ social-links:
 - name: Strava
   url: https://www.strava.com/athletes/xanderx
   icon: fab fa-strava
-color: "#b7d0da"
+color: "#202020"
 menu:
 - url: "/"
   name: Главная
