@@ -238,6 +238,12 @@ a.sidebar-nav-item:focus {
   background-color: #555;
 }
 
+.container a,
+.sidebar-toggle,
+.related-posts li a:hover {
+  color: #555;
+}
+
 .sidebar-toggle:active:before,
 #sidebar-checkbox:focus ~ .sidebar-toggle:before,
 #sidebar-checkbox:checked ~ .sidebar-toggle:before {
