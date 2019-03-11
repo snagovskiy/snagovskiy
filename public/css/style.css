@@ -76,9 +76,9 @@
   animation-iteration-count: 1;
 }
 
-/*.sidebar-toggle {
+.sidebar-toggle {
   background-color: rgba(0, 0, 0, 0);
-} */
+} 
 
 /* .theme-base-0d .sidebar-toggle:before {
   background-image: linear-gradient(to bottom, #6A9FB5, #6A9FB5 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 40%, #6A9FB5 40%, #6A9FB5 60%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 80%, #6A9FB5 80%, #6A9FB5 100%);
