@@ -41,6 +41,9 @@ social-links:
 - name: Strava
   url: https://www.strava.com/athletes/xanderx
   icon: fab fa-strava
+- name: YouTube
+  url: https://www.youtube.com/channel/UCum-zYD9-bPt2wET03o3JcA
+  icon: fab fa-youtube
 color: "#202020"
 menu:
 - url: "/"
